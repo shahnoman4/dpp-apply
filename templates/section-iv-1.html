@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Checkout example for Bootstrap</title>
+
+	<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Sanchez&display=swap" rel="stylesheet">
+	<style>
+		body {
+			font-family: 'Sanchez', serif;
+		}
+	</style>
+
+</head>
+
+<body class="bg-light">
+
+	<div class="container">
+		<div class="py-5 text-center">
+			<img class="d-block mx-auto mb-4"
+				src="https://dpp.org/wp-content/themes/dpporg-theme/assets/images/dpp-logo.png" width="200">
+			<h2>Tuition Credit Application</h2>
+			<h3>Section IV. Income Information</h3>
+		</div>
+
+		<div class="row">
+			<form action="section-v-1.html" method="post">
+				<div class="col-md-4 offset-md-4">
+					<fieldset>
+						<legend></legend>
+
+						<div class="form-group">
+							<label>CHOOSE ONE</label>
+							<div class="form-check">
+								<input type="radio" class="form-check-input" name="options" id="option1"
+									autocomplete="off">
+								<label for="option1" class="form-check-label">
+									&nbsp;If you do not wish to disclose your income please check here and skip to next
+									page. (By doing this you are choosing the minimum level of financial assistance.)
+								</label>
+							</div>
+							<div class="form-check">
+								<input type="radio" class="form-check-input" name="options" id="option2"
+									autocomplete="off">
+								<label for="option2" class="form-check-label">
+									&nbsp;I would like to provide my household gross monthly income and have included
+									verification documents. (Information below required.)
+								</label>
+							</div>
+						</div>
+					</fieldset>
+
+					<fieldset>
+						<legend>Household Gross Monthly Income</legend>
+
+						<p>Please fill in the chart below with work and non-work income information for all
+							parents/guardians in your household and attach documentation for all income. Accepted
+							documents are listed on the front of this application. Information needs to be in monthly
+							totals.</p>
+
+						<ul>
+							<li>Work income includes wages/earnings/tips or income from self employment.</li>
+							<li>If self-employed or do not have proof of income, you may complete an income affidavit by
+								contacting 303.595.4DPP(4377). </li>
+							<li>Non-work income includes TANF, child support/alimony, trust income, etc.
+								(List all non-work income below)</li>
+						</ul>
+
+						<em>Insert table here</em>
+					</fieldset>
+
+					<hr>
+
+					<fieldset>
+						<div class="form-group">
+							<label>Please place an “x” next to the total number of people in household <span
+									class="text-muted">(including yourself and your child)</span></label>
+							<div>
+								<label class="btn">
+									<input type="radio" name="options" id="option1" autocomplete="off"> &nbsp;2
+								</label>
+								<label class="btn">
+									<input type="radio" name="options" id="option2" autocomplete="off"> &nbsp;3
+								</label>
+								<label class="btn">
+									<input type="radio" name="options" id="option2" autocomplete="off"> &nbsp;4
+								</label>
+								<label class="btn">
+									<input type="radio" name="options" id="option2" autocomplete="off"> &nbsp;5
+								</label>
+								<label class="btn">
+									<input type="radio" name="options" id="option2" autocomplete="off"> &nbsp;6
+								</label>
+								<label class="btn">
+									<input type="radio" name="options" id="option2" autocomplete="off"> &nbsp;7
+								</label>
+								<label class="btn">
+									<input type="radio" name="options" id="option2" autocomplete="off"> &nbsp;8
+								</label>
+								<label class="btn">
+									<input type="radio" name="options" id="option2" autocomplete="off"> &nbsp;9
+								</label>
+							</div>
+						</div>
+					</fieldset>
+
+					<hr>
+
+					<fieldset>
+						<div class="form-group">
+							<label>Are you applying for or participating in any of the following programs?</label>
+
+							<div class="form-check">
+								<input type="checkbox" class="form-check-input" name="options" id="option11"
+									autocomplete="off">
+								<label for="option11" class="form-check-label">
+									&nbsp;Colorado Child Care Assistance Program (CCAP)
+								</label>
+							</div>
+							<div class="form-check">
+								<input type="checkbox" class="form-check-input" name="options" id="option12"
+									autocomplete="off">
+								<label for="option12" class="form-check-label">
+									&nbsp;Head Start
+								</label>
+							</div>
+							<div class="form-check">
+								<input type="checkbox" class="form-check-input" name="options" id="option13"
+									autocomplete="off">
+								<label for="option13" class="form-check-label">
+									&nbsp;Colorado Preschool Program (CPP)
+								</label>
+							</div>
+						</div>
+					</fieldset>
+
+					<div class="form-group text-center" style="width:100%">
+						<input type="submit" class="btn btn-primary" value="Save + Continue" />
+					</div>
+					<div class="help-block mb-4">
+						<small class="text-muted" style="visibility:hidden;">We will use your e-mail address to
+							communicate with you about your application. If you provide a mobile number, we will text
+							you about your application. Carrier messaging rates may apply.</small>
+					</div>
+				</div>
+			</form>
+		</div>
+
+		<footer class="my-5 pt-5 text-muted text-center text-small">
+			<p class="mb-1">&copy; 2019 Denver Preschool Program</p>
+			<ul class="list-inline">
+				<li class="list-inline-item"><a href="#">Privacy</a></li>
+				<li class="list-inline-item"><a href="#">Terms</a></li>
+			</ul>
+		</footer>
+	</div>
+
+</body>
+
+</html>

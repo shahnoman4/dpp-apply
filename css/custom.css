@@ -1,0 +1,86 @@
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	background:#fafafa;
+	color:#000;
+	font-size:0.9rem;
+}
+
+h1, h2, h3,  h4, h5, h6 {
+	font-family: 'Sanchez', serif;
+}
+
+h4 {
+	font-size:1.3rem;
+}
+
+.btn-primary {
+	background:#97342b;
+	border-color:#97342b;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show>.btn-secondary.dropdown-toggle {
+	background:#f3dd63;
+	color:#000;
+}
+
+.btn:disabled {
+	background:#999;
+	border-color:#666;
+}
+
+.container {
+	max-width:700px;
+}
+
+span.subtext {
+	font-weight: normal;
+	font-style: italic;
+	color: #868686;
+	font-size: .8rem;
+}
+
+a(not:btn){
+	color:#97342b;
+}
+
+footer a, footer a:visited, footer a:hover, footer a:active, footer a:focus {
+	color:#666;
+}
+
+.progress {
+	margin-bottom: 1rem;
+}
+
+.progress-bar {
+	background-color: #97342b;
+}
+
+.income-table td {
+	vertical-align: middle;
+}
+
+.card {
+	padding:1.5em;
+	margin:1em 0;
+}
+
+.chosen-select {
+	width:100%!important;
+}
+
+.edit-link { display:block; }
+
+.edit-tr:hover .edit-link { display:block; }
+
+.error{
+	color: red;
+}
+
+.error-div { color:red; }
+label {
+	font-weight:600;
+}
+
+.highlight { 
+	background:#ffc;
+}
